@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap");
+
+:root {
+  --fontepara: "Sriracha", cursive;
+  --fonteheader: Verdana, Geneva, Tahoma, sans-serif;
+  --fontetitulo: "Passion One", cursive;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  min-width: 320px
+}
+
+header {
+  background-color: #051659;
+  color: white;
+  text-align: center;
+}
+
+header > p {
+  font-family: var(--fonteheader);
+  font-size: 1em;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-family: var(--fontetitulo);
+  font-size: 10vw;
+  padding-top: 50px;
+  font-variant: small-caps;
+}
+
+body {
+  background-color: #b7aff2;
+}
+
+body > div {
+  font-family: var(--fontepara);
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 30px;
+  font-size: 3.5vw;
+  line-height: 2;
+}
+
+body > div > p.imagem {
+  background-color: #000000a9;
+  padding-left: 5px;  
+  color: white;  
+  display: inline-block
+}
+
+
+
+[class] {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.segundo {
+  background-color: #b7aff2;
+  background-image: url("fotos/estranho.jpeg");
+  background-position: 50% 75%;  
+}
+
+.quarto {
+  background-color: #b7aff2;
+  background-image: url("fotos/vegetariano.jpeg");
+  background-position: 0% 42%;  
+}
+
+.quinto {
+  background-color: #b7aff2;
+  background-image: url("fotos/marxista.jpeg");
+  background-position: 0% 52%;
+}
+
+.sexto {
+  background-color: #b7aff2;
+  background-image: url("fotos/conheceujiu.png");
+  background-position: 
+}
+
+.setimo {
+  background-color: #b7aff2;
+  background-image: url("fotos/faixaazul.png");
+  background-position: 100% 45%;
+}
+
+footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-top: 7em;
+^}
